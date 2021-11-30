@@ -1,0 +1,33 @@
+@import "../../Variables.scss";
+
+.card {
+  border:thin solid #dedede;
+  
+  width: 15rem;
+  padding: 10px;
+  margin: 10px;
+  background: $blanco;
+
+  .card_body {
+    height: 180px;
+    background: $blanco;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  .total {
+    color: $negro;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+
+  }
+
+  .precio{
+    color:$negro;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 25px;
+  }
+}

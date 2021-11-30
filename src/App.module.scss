@@ -1,0 +1,44 @@
+@import "./Components/Variables.scss";
+@import "~bootstrap/scss/bootstrap";
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  color: $negro;
+  width: auto;
+  // cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #0176d5;
+  padding: 10px;
+}
+
+.imagen {
+  background-color: $blanco;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.links{
+  background-color:white;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  box-shadow: 0px 10px 10px -6px $sombra;
+}
+
+.link{
+  text-decoration: none;
+  text-emphasis: none;
+  color:$walmart;
+  font-weight: bold;
+  padding: 10px 10px;
+ // &:hover{
+   // color:$blanco
+ // }
+}
